@@ -13,7 +13,7 @@ class Person
       person.partner = self
   end
 
-  class Partner < StandardError
+  class PartnerError < StandardError
   end
 
 end
